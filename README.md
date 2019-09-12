@@ -1,2 +1,4 @@
-# TSL_Atton_Head_Black_Line_UV_Tweak
-Adjusts the UVs of Atton's head model to reduce/eliminate the "black line" issue
+# [TSL] Atton Head UV Tweak for Black Line Issue
+This is a slightly tweaked version of Atton's head model that adjusts the UVs to reduce/eliminate the "black line" issue. This can happen on some systems due to the engine utilising deprecated OpenGL calls that can cause black lines along any UV seams at the very edge of a texture. The issue is most prominanet in the center of faces due to both K1 and TSL using mirrored face UVs to maximise pixel density in their low resolution textures.
+
+Further information can be found here - https://deadlystream.com/topic/5632-black-line-in-middle-of-face
